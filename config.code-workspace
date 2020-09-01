@@ -6,5 +6,23 @@
 	],
 	"settings": {
 		"python.pythonPath": "C:\\Users\\bratca\\.virtualenvs\\TwitterApp-wn20rJHK\\Scripts\\python.exe"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		
+		
+			{
+				"name": "Python: Django",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}\\manage.py",
+				"args": [
+					"runserver",
+					"--noreload"
+				],
+				"django": true
+			}
+		]
 	}
 }
