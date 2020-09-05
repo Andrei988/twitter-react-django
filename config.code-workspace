@@ -5,12 +5,16 @@
 		}
 	],
 	"settings": {
-		"python.pythonPath": "C:\\Users\\bratca\\.virtualenvs\\TwitterApp-wn20rJHK\\Scripts\\python.exe"
+		"python.pythonPath": "C:\\Users\\bratca\\.virtualenvs\\TwitterApp-wn20rJHK\\Scripts\\python.exe",
+		"workbench.colorCustomizations": {
+		},
+		"vsintellicode.features.python.deepLearning": "enabled",
+		"workbench.preferredLightColorTheme": "Default Dark+"
 	},
 	"launch": {
 		"version": "0.2.0",
 		"configurations": [
-		
+			
 		
 			{
 				"name": "Python: Django",

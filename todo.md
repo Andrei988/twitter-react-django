@@ -50,20 +50,20 @@ Long term todos
 1:18:19 18. Tweets to HTML via JavaScript
 1:25:56 19. Format Tweet Method
 1:29:30 20. Like Button Rendering -->
-1:36:48 21. Rapid Implement of Bootstrap Theme
+<!-- 1:36:48 21. Rapid Implement of Bootstrap Theme
 1:48:00 22. Tweet Create Form
 1:56:55 23. Tweet Form by Hand
 2:02:25 24. Successful Form Redirect
 2:05:00 25. Safe URL Redirect
 2:08:30 26. Prevent Form Submit via JavaScript
-2:13:36 27. Sending Form Data via pure JavaScript
-2:22:06 28. Handling Ajax Requests
+2:13:36 27. Sending Form Data via pure JavaScript -->
+<!-- 2:22:06 28. Handling Ajax Requests
 2:26:47 29. Serialize Django Model Object
 2:33:33 30. Append New Tweet & Reorder
-2:37:09 31. Handling Form Errors
-2:42:18 32. Rendering the Error Message via Vanilla JavaScript
+2:37:09 31. Handling Form Errors -->
+<!-- 2:42:18 32. Rendering the Error Message via Vanilla JavaScript
 2:49:28 33. Users & Tweets
-2:57:09 34. Django Admin
+2:57:09 34. Django Admin -->
 3:07:23 35. Associate Authenticated User to Object
 3:13:00 36. Permissions & Roadmap
 3:16:16 37. Install Django Rest Framework
