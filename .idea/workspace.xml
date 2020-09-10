@@ -1,32 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4488b03f-b819-4dd3-870b-fce72f815132" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweets/migrations/0002_auto_20200903_1121.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweets/migrations/0003_tweet_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweets/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/bratca.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.code-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/config.code-workspace" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo.md" beforeDir="false" afterPath="$PROJECT_DIR$/todo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweetme2/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweetme2/asgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tweetme2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweetme2/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tweetme2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweetme2/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweetme2/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweetme2/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tweets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tweets/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweets/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweets/migrations/0002_auto_20200903_1121.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweets/migrations/0003_tweet_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweets/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tweets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweets/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweets/test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tweets/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tweets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/views.py" afterDir="false" />
     </list>
@@ -35,27 +46,151 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1h3Wokb8xndgGdCVi4n9x8kEHdj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\via\Internship\InternshipProjects\TwitterApp\tweets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django tests.Test: tweets.tests.TweetTestCase.test_tweet_delete_api_view">
+    <configuration name="Test: tweets.tests.TweetTestCase.test_action_create_api_view" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="TwitterApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="tweets.tests.TweetTestCase.test_action_create_api_view" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: tweets.tests.TweetTestCase.test_action_like" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="TwitterApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="tweets.tests.TweetTestCase.test_action_like" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: tweets.tests.TweetTestCase.test_action_unlike" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="TwitterApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="tweets.tests.TweetTestCase.test_action_unlike" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: tweets.tests.TweetTestCase.test_tweet_delete_api_view" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="TwitterApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="tweets.tests.TweetTestCase.test_tweet_delete_api_view" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: tweets.tests.TweetTestCase.test_tweet_detailed_api_view" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="TwitterApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="tweets.tests.TweetTestCase.test_tweet_detailed_api_view" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TwitterApp" type="Python.DjangoServer" factoryName="Django server">
       <module name="TwitterApp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="tweetme2.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -73,6 +208,15 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: tweets.tests.TweetTestCase.test_tweet_delete_api_view" />
+        <item itemvalue="Django tests.Test: tweets.tests.TweetTestCase.test_tweet_detailed_api_view" />
+        <item itemvalue="Django tests.Test: tweets.tests.TweetTestCase.test_action_create_api_view" />
+        <item itemvalue="Django tests.Test: tweets.tests.TweetTestCase.test_action_unlike" />
+        <item itemvalue="Django tests.Test: tweets.tests.TweetTestCase.test_action_like" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -85,10 +229,215 @@
       <option name="presentableId" value="Default" />
       <updated>1599240432076</updated>
       <workItem from="1599240433455" duration="56000" />
+      <workItem from="1599377165213" duration="23000" />
+      <workItem from="1599381113777" duration="1248000" />
+      <workItem from="1599384362798" duration="2290000" />
+      <workItem from="1599579832964" duration="19643000" />
+      <workItem from="1599682179848" duration="76000" />
+      <workItem from="1599682267533" duration="1363000" />
+      <workItem from="1599745491292" duration="414000" />
+      <workItem from="1599745926432" duration="43000" />
+      <workItem from="1599745979288" duration="14184000" />
+      <workItem from="1599762955991" duration="46000" />
+      <workItem from="1599763032928" duration="838000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599754660789">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599754660789" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1599640711139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599640711139" />
+    <state x="825" y="182" key="EnvironmentVariablesDialog" timestamp="1599683312119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="825" y="182" key="EnvironmentVariablesDialog/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599683312119" />
+    <state x="564" y="194" width="591" height="408" key="GridCell.Tab.-1.bottom" timestamp="1599763044909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="564" y="194" width="591" height="408" key="GridCell.Tab.-1.bottom/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763044909" />
+    <state x="564" y="194" width="591" height="408" key="GridCell.Tab.-1.center" timestamp="1599763044909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="564" y="194" width="591" height="408" key="GridCell.Tab.-1.center/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763044909" />
+    <state x="564" y="194" width="591" height="408" key="GridCell.Tab.-1.left" timestamp="1599763044908">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="564" y="194" width="591" height="408" key="GridCell.Tab.-1.left/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763044908" />
+    <state x="564" y="194" width="591" height="408" key="GridCell.Tab.-1.right" timestamp="1599763044909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="564" y="194" width="591" height="408" key="GridCell.Tab.-1.right/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763044909" />
+    <state width="1877" height="386" key="GridCell.Tab.0.bottom" timestamp="1599763377394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.0.bottom/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763377394" />
+    <state width="1009" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599642234127" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/742.1440.1920.1040/0.0.3440.1400@742.1440.1920.1040" timestamp="1599682053410" />
+    <state width="1877" height="386" key="GridCell.Tab.0.center" timestamp="1599763377394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.0.center/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763377394" />
+    <state width="1009" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599642234126" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/742.1440.1920.1040/0.0.3440.1400@742.1440.1920.1040" timestamp="1599682053409" />
+    <state width="1877" height="386" key="GridCell.Tab.0.left" timestamp="1599763377394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.0.left/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763377394" />
+    <state width="1009" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599642234126" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/742.1440.1920.1040/0.0.3440.1400@742.1440.1920.1040" timestamp="1599682053409" />
+    <state width="1877" height="386" key="GridCell.Tab.0.right" timestamp="1599763377394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.0.right/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763377394" />
+    <state width="1009" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599642234126" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/742.1440.1920.1040/0.0.3440.1400@742.1440.1920.1040" timestamp="1599682053409" />
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.bottom" timestamp="1599763320434">
+      <screen x="-742" y="-1440" width="3440" height="1400" />
+    </state>
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.bottom/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763320434" />
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.center" timestamp="1599763320434">
+      <screen x="-742" y="-1440" width="3440" height="1400" />
+    </state>
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.center/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763320434" />
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.left" timestamp="1599763320433">
+      <screen x="-742" y="-1440" width="3440" height="1400" />
+    </state>
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.left/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763320433" />
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.right" timestamp="1599763320434">
+      <screen x="-742" y="-1440" width="3440" height="1400" />
+    </state>
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.right/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763320434" />
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.2.bottom" timestamp="1599763077339">
+      <screen x="-742" y="-1440" width="3440" height="1400" />
+    </state>
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.2.bottom/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763077339" />
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.2.center" timestamp="1599763077339">
+      <screen x="-742" y="-1440" width="3440" height="1400" />
+    </state>
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.2.center/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763077339" />
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.2.left" timestamp="1599763077339">
+      <screen x="-742" y="-1440" width="3440" height="1400" />
+    </state>
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.2.left/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763077339" />
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.2.right" timestamp="1599763077339">
+      <screen x="-742" y="-1440" width="3440" height="1400" />
+    </state>
+    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.2.right/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763077339" />
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.3.bottom" timestamp="1599763020094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.3.bottom/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763020094" />
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.3.center" timestamp="1599763020094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.3.center/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763020094" />
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.3.left" timestamp="1599763020099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.3.left/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763020099" />
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.3.right" timestamp="1599763020094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.3.right/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763020094" />
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.4.bottom" timestamp="1599763020095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.4.bottom/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763020095" />
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.4.center" timestamp="1599763020095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.4.center/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763020095" />
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.4.left" timestamp="1599763020095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.4.left/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763020095" />
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.4.right" timestamp="1599763020095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.4.right/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763020095" />
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.5.bottom" timestamp="1599763019539">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.5.bottom/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763019539" />
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.5.center" timestamp="1599763019539">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.5.center/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763019539" />
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.5.left" timestamp="1599763019539">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.5.left/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763019539" />
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.5.right" timestamp="1599763019539">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="487" y="188" width="591" height="408" key="GridCell.Tab.5.right/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763019539" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1599682256264">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599682256264" />
+    <state x="564" y="194" width="607" height="475" key="dock-window-1" timestamp="1599763298321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="564" y="194" width="607" height="475" key="dock-window-1/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763298321" />
+    <state x="1099" y="-1161" width="1189" height="717" key="dock-window-2" timestamp="1599762792692">
+      <screen x="-742" y="-1440" width="3440" height="1400" />
+    </state>
+    <state x="1099" y="-1161" width="1189" height="717" key="dock-window-2/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599762792692" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1599382083930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599382083930" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599762569124">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599762569124" />
+    <state x="1365" y="1665" width="672" height="678" key="search.everywhere.popup/742.1440.1920.1040/0.0.3440.1400@742.1440.1920.1040" timestamp="1599682050735" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tweets/views.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="DjangoTestsConfigurationType">
+        <watch expression="qs.id" />
+        <watch expression="qs.content" />
+        <watch expression="qs" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TwitterApp$Test__tweets_tests_TweetTestCase_test_api_login.coverage" NAME="Test: tweets.tests.TweetTestCase.test_api_login Coverage Results" MODIFIED="1599759347666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/TwitterApp$Test__tweets_tests_TweetTestCase_test_action_like.coverage" NAME="Test: tweets.tests.TweetTestCase.test_action_like Coverage Results" MODIFIED="1599759359917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/TwitterApp$Test__tweets_tests_TweetTestCase_test_action_unlike.coverage" NAME="Test: tweets.tests.TweetTestCase.test_action_unlike Coverage Results" MODIFIED="1599759427757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/TwitterApp$Test__tweets_tests_TweetTestCase_test_tweet_created.coverage" NAME="Test: tweets.tests.TweetTestCase.test_tweet_created Coverage Results" MODIFIED="1599756134157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/TwitterApp$Test__tweets_tests_TweetTestCase_test_tweet_delete_api_view.coverage" NAME="Test: tweets.tests.TweetTestCase.test_tweet_delete_api_view Coverage Results" MODIFIED="1599763377372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/TwitterApp$Test__tweets_tests_TweetTestCase_test_action_create_api_view.coverage" NAME="Test: tweets.tests.TweetTestCase.test_action_create_api_view Coverage Results" MODIFIED="1599760237888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/TwitterApp$Test__tweets_tests_TweetTestCase_test_tweet_detailed_api_view.coverage" NAME="Test: tweets.tests.TweetTestCase.test_tweet_detailed_api_view Coverage Results" MODIFIED="1599760498498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
