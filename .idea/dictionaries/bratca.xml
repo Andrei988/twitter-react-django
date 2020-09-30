@@ -3,8 +3,11 @@
     <words>
       <w>authtoken</w>
       <w>browsable</w>
+      <w>corsheaders</w>
       <w>csrftoken</w>
       <w>retweet</w>
+      <w>tweetme</w>
+      <w>unpkg</w>
     </words>
   </dictionary>
 </component>

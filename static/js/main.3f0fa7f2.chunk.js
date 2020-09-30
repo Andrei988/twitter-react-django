@@ -1,0 +1,96 @@
+(this["webpackJsonptweetme2-web"] = this["webpackJsonptweetme2-web"] || []).push([[0], {
+    12: function (e, t, a) {
+    }, 13: function (e, t, a) {
+    }, 14: function (e, t, a) {
+        "use strict";
+        a.r(t);
+        var n = a(0), c = a.n(n), r = a(5), o = a.n(r), s = (a(12), a(13), a(4)), l = a(1);
+
+        function i(e) {
+            var t = c.a.createRef(), a = Object(n.useState)([]), r = Object(l.a)(a, 2), o = r[0], i = r[1];
+            return c.a.createElement("div", {className: e.className}, c.a.createElement("div", {className: "col-12 mb-3"}, c.a.createElement("form", {
+                onSubmit: function (e) {
+                    e.preventDefault();
+                    var a = t.current.value, n = Object(s.a)(o);
+                    n.unshift({content: a, likes: 0, id: 0}), i(n), t.current.value = ""
+                }
+            }, c.a.createElement("textarea", {
+                ref: t,
+                required: !0,
+                className: "form-control",
+                name: "tweet"
+            }), c.a.createElement("button", {
+                type: "submit",
+                className: "btn btn-primary my-3"
+            }, "Tweet"))), c.a.createElement(m, {newTweets: o}))
+        }
+
+        function m(e) {
+            var t = Object(n.useState)(e.newTweets ? e.newTweets : []), a = Object(l.a)(t, 2), r = a[0], o = a[1],
+                i = Object(n.useState)([]), m = Object(l.a)(i, 2), u = m[0], p = m[1];
+            return Object(n.useEffect)((function () {
+                var t = Object(s.a)(e.newTweets).concat(r);
+                t.length !== u.length && p(t)
+            }), [e.newTweets, u, r]), Object(n.useEffect)((function () {
+                !function (e) {
+                    var t = new XMLHttpRequest;
+                    t.responseType = "json", t.open("GET", "http://localhost:8000/api/tweets/"), t.onload = function () {
+                        e(t.response, t.status)
+                    }, t.onerror = function (t) {
+                        console.log(t), e({message: "The request was an error"}, 400)
+                    }, t.send()
+                }((function (e, t) {
+                    if (200 === t) {
+                        var a = Object(s.a)(e).concat(r);
+                        o(a)
+                    } else alert("There was an error")
+                }))
+            }), [r]), u.map((function (e, t) {
+                return c.a.createElement(w, {
+                    tweet: e,
+                    className: "my-5 py-5 border bg-white text-dark",
+                    key: "".concat(t, "-{item.id}")
+                })
+            }))
+        }
+
+        function u(e) {
+            var t = e.tweet, a = e.action, r = Object(n.useState)(t.likes ? t.likes : 0), o = Object(l.a)(r, 2),
+                s = o[0], i = o[1], m = Object(n.useState)(!0 === t.userLike), u = Object(l.a)(m, 2), w = u[0],
+                p = u[1], d = e.className ? e.className : "btn btn-primary btn-sm",
+                f = a.display ? a.display : "Action", b = "like" === a.type ? "".concat(s, " ").concat(f) : f;
+            return c.a.createElement("button", {
+                className: d, onClick: function (e) {
+                    e && e.preventDefault(), "like" === a.type && (!0 === w ? (i(s - 1), p(!1)) : (i(s + 1), p(!0)))
+                }
+            }, b)
+        }
+
+        function w(e) {
+            var t = e.tweet, a = e.className ? e.className : "col-10 mx-auto col-md-6";
+            return c.a.createElement("div", {className: a}, c.a.createElement("p", null, t.id, " - ", t.content), c.a.createElement("div", null, c.a.createElement(u, {
+                tweet: t,
+                action: {type: "like", display: "Likes"}
+            }), c.a.createElement(u, {
+                tweet: t,
+                action: {type: "unlike", display: "Unlike"}
+            }), c.a.createElement(u, {tweet: t, action: {type: "retweet", display: "Retweet"}})))
+        }
+
+        var p = function () {
+            return c.a.createElement("div", {className: "App"}, c.a.createElement("header", {className: "App-header"}, c.a.createElement("div", null, c.a.createElement(i, null))))
+        };
+        Boolean("localhost" === window.location.hostname || "[::1]" === window.location.hostname || window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+        var d = document.getElementById("root");
+        d && o.a.render(c.a.createElement(p, null), d);
+        var f = document.getElementById("tweetme-2");
+        f && o.a.render(c.a.createElement(i, null), f), "serviceWorker" in navigator && navigator.serviceWorker.ready.then((function (e) {
+            e.unregister()
+        })).catch((function (e) {
+            console.error(e.message)
+        }))
+    }, 7: function (e, t, a) {
+        e.exports = a(14)
+    }
+}, [[7, 1, 2]]]);
+//# sourceMappingURL=main.3f0fa7f2.chunk.js.map

@@ -20,26 +20,422 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4488b03f-b819-4dd3-870b-fce72f815132" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/bratca.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/junk.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/autocomplete.781713f30664.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/base.efb520c4bb7c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/changelists.c406274c3875.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/changelists.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/dashboard.be83f13e4369.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/fonts.168bab448fee.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/forms.1bb8b4c1f887.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/login.d2a477e04949.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/nav_sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/nav_sidebar.d77625ae2948.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/responsive.80de588896ee.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/responsive_rtl.04c614934335.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/responsive_rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/rtl.487d4a932cff.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/vendor/select2/LICENSE-SELECT2.f94142512c91.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/vendor/select2/select2.a2194c262648.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/vendor/select2/select2.min.9f54e6414f87.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/widgets.b12c020d05e0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/css/widgets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/fonts/LICENSE.d273d63619c9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/fonts/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/fonts/README.ab99e6b541ea.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/fonts/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/fonts/Roboto-Bold-webfont.50d75e48e0a3.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/fonts/Roboto-Light-webfont.c73eb1ceba33.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/fonts/Roboto-Regular-webfont.35b07eb2f871.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/LICENSE.2c54f4e1ca1c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/README.a70711a38d87.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/calendar-icons.39b290681a8b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/calendar-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/gis/move_vertex_off.7a23bf31ef8a.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/gis/move_vertex_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/gis/move_vertex_on.0047eba25b67.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/gis/move_vertex_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-addlink.d519b3bab011.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-addlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-alert.034cc7d8a67f.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-calendar.ac7aea671bea.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-changelink.18d2fd706348.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-changelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-clock.e1d4dfac3f2b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-deletelink.564ef9dc3854.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-deletelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-no.439e821418cd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-unknown-alt.81536e128bb6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-unknown-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-unknown.a18cb4398978.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-viewlink.41eb31f7826e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-viewlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-yes.d2f9f035226a.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/icon-yes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/inline-delete.fec1b761f254.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/inline-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/search.7cf54ff789c6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/selector-icons.b4555096cea2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/selector-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/sorting-icons.3a097b59f104.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/sorting-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/tooltag-add.e59d620a9742.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/tooltag-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/tooltag-arrowright.bbfb788a849e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/img/tooltag-arrowright.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/SelectBox.46d59670a7a7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/SelectBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/SelectFilter2.d250dcb52a9a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/SelectFilter2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/actions.9fe89b71cbba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/actions.min.5f3040a29159.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/actions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/admin/DateTimeShortcuts.29d0b1965c07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/admin/RelatedObjectLookups.d7e023e6523b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/autocomplete.618a7ebf39d8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/calendar.b4dcf6f850fe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/cancel.50e7573ea4a7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/cancel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/change_form.9d8ca4f96b75.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/change_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/collapse.f84e7410290f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/collapse.min.10ac29832e2c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/collapse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/core.fae39a43def0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/inlines.7596b7fd289e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/inlines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/inlines.min.599e296e4c24.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/inlines.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/jquery.init.b7781a0897fc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/jquery.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/nav_sidebar.7605597ddf52.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/nav_sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/popup_response.c6cc78ea5551.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/popup_response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/prepopulate.bd2361dfd64d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/prepopulate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/prepopulate.min.5f7f80162256.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/prepopulate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/prepopulate_init.e056047b7a7e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/prepopulate_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/urlify.3cabcb7a9073.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/urlify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/jquery/LICENSE.75308107741f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/jquery/jquery.23c7c5d2d131.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/jquery/jquery.min.dc5e7f18c8d3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/LICENSE.f94142512c91.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/af.4f6fcd73488c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ar.65aa8e36bf5d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/az.270c257daf81.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/bg.39b8be30d4f0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/bn.6d42b4dd5665.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/bs.91624382358e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ca.a166b745933a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/cs.4f43e8e7d33a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/da.766346afe4dd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/de.8a1c222b0204.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/dsb.56372c92d2f1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/dsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/el.27097f071856.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/en.cf932ba09a98.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/es.66dbc2652fb1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/et.2b96fd98289d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/eu.adfe5c97b72c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/fa.3b5bd1961cfd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/fi.614ec42aa9ba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/fr.05e0542fcfe6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/gl.d99b1fedaa86.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/he.e420ff6cd3ed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hi.70640d41628f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hr.a2b092cc1147.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hsb.fa3b55265efe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hu.6ec6039cb8a3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hy.c7babaeef5a6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/id.04debded514d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/is.3ddd9a6a97e9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/it.be4fe8d365b5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ja.170ae885d74f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ka.2083264a54f0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/km.c23089cb06ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ko.e7be6c20e673.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/lt.23c7ce903300.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/lv.08e62128eac1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/mk.dabbb9087130.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ms.4ba82c9a51ce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/nb.da2fce143f27.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ne.3d79fd3f08db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/nl.997868a37ed8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/pl.6031b4f16452.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ps.38dfa47af9e0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/pt-BR.e1b294433e7f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/pt.33b4a3b44d43.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ro.f75cb460ec3b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ru.934aa95f5b5f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sk.33d02cef8d11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sl.131a78bc0752.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sq.5636b60d29c9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sr-Cyrl.f254bb8c4c7c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sr.5ed85a48f483.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sv.7a9c2f71e777.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/th.f38c20b0221b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/tk.7c572a68c78f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/tk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/tr.b5a0643d1545.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/uk.8cede7f4803c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/vi.097a5b75b3e1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/zh-CN.2cff662ec5f9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/zh-TW.04554a227c2b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/select2.full.c2afdeda3058.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/select2.full.min.fcd7500d8e13.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/xregexp/LICENSE.bf79e414957a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/xregexp/xregexp.efda034b9537.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/xregexp/xregexp.min.b0439563a5d3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/css/bootstrap-theme.min.66b84a04375e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/css/bootstrap-tweaks.46ed116b0edd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/css/bootstrap-tweaks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/css/bootstrap.min.77017a69879a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/css/default.8d5591a6aabc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/css/font-awesome-4.0.3.c1e1ea213abf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/css/font-awesome-4.0.3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/css/prettify.a987f72342ee.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/css/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/css/base.3208b6cc4466.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/css/highlight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/css/highlight.e0e4d973c6d7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/css/jquery.json-view.min.a2e6beeb6710.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/css/jquery.json-view.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/img/favicon.5195b4d0f3eb.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/img/grid.a4b938cf382b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/img/grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/js/api.c9743eab7a4f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/js/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/js/highlight.pack.479b5f21dcba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/js/highlight.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/js/jquery.json-view.min.b7c2d6981377.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/docs/js/jquery.json-view.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/fontawesome-webfont.3293616ec0c6.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/fontawesome-webfont.83e37a11f9d7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/fontawesome-webfont.8b27bc96115c.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/fontawesome-webfont.dcb26c7239d8.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/glyphicons-halflings-regular.08eda92397ae.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/glyphicons-halflings-regular.448c34a56d69.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/glyphicons-halflings-regular.e18bbf611f2a.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/glyphicons-halflings-regular.f4769f9bdb74.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/glyphicons-halflings-regular.fa2772327f55.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/img/glyphicons-halflings-white.9bbc6e960299.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/img/glyphicons-halflings.90233c9067e9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/img/grid.a4b938cf382b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/img/grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/js/ajax-form.0ea6e6052ab5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/js/ajax-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/js/bootstrap.min.2f34b630ffe3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/js/coreapi-0.1.1.8851fb9336c9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/js/coreapi-0.1.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/js/csrf.969930007329.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/js/csrf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/js/default.5b08897dbdc3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/js/default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/js/jquery-3.4.1.min.220afd743d9e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/js/prettify-min.709bfcc456c6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/rest_framework/js/prettify-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-root/staticfiles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/main.5f361e03.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/main.5f361e03.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/2.2d731398.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/2.2d731398.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/2.2d731398.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/main.3f0fa7f2.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/main.3f0fa7f2.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/runtime-main.99d83fc2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/runtime-main.99d83fc2.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/react/base_embed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/react/css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/react/js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/react/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/react/react.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/precache-manifest.2a26d98e35d8e6d89465850841e294d6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/service-worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/static/css/main.5f361e03.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/static/css/main.5f361e03.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/static/js/2.2d731398.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/static/js/2.2d731398.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/static/js/2.2d731398.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/static/js/main.3f0fa7f2.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/static/js/main.3f0fa7f2.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/static/js/runtime-main.99d83fc2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/build/static/js/runtime-main.99d83fc2.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/authentication/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/authentication/Nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/authentication/SignupForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/lookup/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/lookup/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/registerServiceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/tweets/components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2-web/src/tweets/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2/rest_api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2/rest_api/dev.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweetme2/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TwitterApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TwitterApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/bratca.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/bratca.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.code-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/config.code-workspace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tweetme2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweetme2/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tweetme2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweetme2/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/migrations/0002_auto_20200903_1121.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/migrations/0003_tweet_user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweets/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +444,10 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Project Files" color="Theme" />
+    <fileColor scope="Open Files" color="Theme" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,31 +459,53 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1h3Wokb8xndgGdCVi4n9x8kEHdj" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2020.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\via\Internship\InternshipProjects\TwitterApp\templates\react" />
+      <recent name="D:\via\Internship\InternshipProjects\TwitterApp" />
+      <recent name="D:\via\Internship\InternshipProjects\TwitterApp\tweetme2\static" />
       <recent name="D:\via\Internship\InternshipProjects\TwitterApp\tweets" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\via\Internship\InternshipProjects\TwitterApp\tweetme2-web\src" />
+      <recent name="D:\via\Internship\InternshipProjects\TwitterApp\static" />
+      <recent name="D:\via\Internship\InternshipProjects\TwitterApp" />
+      <recent name="D:\via\Internship\InternshipProjects\TwitterApp\templates\react" />
+      <recent name="D:\via\Internship\InternshipProjects\TwitterApp\tweetme2\static" />
+    </key>
   </component>
-  <component name="RunManager" selected="Django tests.Test: tweets.tests.TweetTestCase.test_tweet_delete_api_view">
+  <component name="RunManager" selected="Django Server.TwitterApp">
     <configuration name="Test: tweets.tests.TweetTestCase.test_action_create_api_view" type="DjangoTestsConfigurationType" temporary="true">
       <module name="TwitterApp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,7 +661,20 @@
       <workItem from="1599745926432" duration="43000" />
       <workItem from="1599745979288" duration="14184000" />
       <workItem from="1599762955991" duration="46000" />
-      <workItem from="1599763032928" duration="838000" />
+      <workItem from="1599763032928" duration="1013000" />
+      <workItem from="1599769959926" duration="75000" />
+      <workItem from="1599770046994" duration="150000" />
+      <workItem from="1599770210050" duration="126000" />
+      <workItem from="1599770347601" duration="364000" />
+      <workItem from="1599770729676" duration="252000" />
+      <workItem from="1599770996520" duration="11388000" />
+      <workItem from="1599820646756" duration="3708000" />
+      <workItem from="1600159889128" duration="22634000" />
+      <workItem from="1600197995916" duration="19849000" />
+      <workItem from="1600854426369" duration="5406000" />
+      <workItem from="1601370971500" duration="1809000" />
+      <workItem from="1601380861852" duration="636000" />
+      <workItem from="1601464702223" duration="629000" />
     </task>
     <servers />
   </component>
@@ -249,6 +684,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -256,9 +716,21 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1600254894142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1600254894142" />
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599754660789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -267,10 +739,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599640711139" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600861646472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1600861646472" />
     <state x="825" y="182" key="EnvironmentVariablesDialog" timestamp="1599683312119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="825" y="182" key="EnvironmentVariablesDialog/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599683312119" />
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1601387559814">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1601387559814" />
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601373632026" />
     <state x="564" y="194" width="591" height="408" key="GridCell.Tab.-1.bottom" timestamp="1599763044909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -287,46 +768,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="564" y="194" width="591" height="408" key="GridCell.Tab.-1.right/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763044909" />
-    <state width="1877" height="386" key="GridCell.Tab.0.bottom" timestamp="1599763377394">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1601373634759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="386" key="GridCell.Tab.0.bottom/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763377394" />
-    <state width="1009" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599642234127" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1601371087756" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601373634759" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/742.1440.1920.1040/0.0.3440.1400@742.1440.1920.1040" timestamp="1599682053410" />
-    <state width="1877" height="386" key="GridCell.Tab.0.center" timestamp="1599763377394">
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1601373634759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="386" key="GridCell.Tab.0.center/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763377394" />
-    <state width="1009" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599642234126" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1601371087755" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601373634759" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/742.1440.1920.1040/0.0.3440.1400@742.1440.1920.1040" timestamp="1599682053409" />
-    <state width="1877" height="386" key="GridCell.Tab.0.left" timestamp="1599763377394">
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1601373634759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="386" key="GridCell.Tab.0.left/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763377394" />
-    <state width="1009" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599642234126" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1601371087755" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601373634759" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/742.1440.1920.1040/0.0.3440.1400@742.1440.1920.1040" timestamp="1599682053409" />
-    <state width="1877" height="386" key="GridCell.Tab.0.right" timestamp="1599763377394">
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1601373634759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="386" key="GridCell.Tab.0.right/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763377394" />
-    <state width="1009" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599642234126" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1601371087755" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601373634759" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/742.1440.1920.1040/0.0.3440.1400@742.1440.1920.1040" timestamp="1599682053409" />
-    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.bottom" timestamp="1599763320434">
-      <screen x="-742" y="-1440" width="3440" height="1400" />
+    <state x="1099" y="-1161" width="1877" height="453" key="GridCell.Tab.1.bottom" timestamp="1600443401669">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.bottom/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763320434" />
-    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.center" timestamp="1599763320434">
-      <screen x="-742" y="-1440" width="3440" height="1400" />
+    <state x="1099" y="-1161" width="1877" height="453" key="GridCell.Tab.1.bottom/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1600249477839" />
+    <state width="1877" height="453" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600443401669" />
+    <state x="1099" y="-1161" width="1877" height="453" key="GridCell.Tab.1.center" timestamp="1600443401669">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.center/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763320434" />
-    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.left" timestamp="1599763320433">
-      <screen x="-742" y="-1440" width="3440" height="1400" />
+    <state x="1099" y="-1161" width="1877" height="453" key="GridCell.Tab.1.center/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1600249477839" />
+    <state width="1877" height="453" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600443401669" />
+    <state x="1099" y="-1161" width="1877" height="453" key="GridCell.Tab.1.left" timestamp="1600443401669">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.left/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763320433" />
-    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.right" timestamp="1599763320434">
-      <screen x="-742" y="-1440" width="3440" height="1400" />
+    <state x="1099" y="-1161" width="1877" height="453" key="GridCell.Tab.1.left/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1600249477839" />
+    <state width="1877" height="453" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600443401669" />
+    <state x="1099" y="-1161" width="1877" height="453" key="GridCell.Tab.1.right" timestamp="1600443401669">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.1.right/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763320434" />
+    <state x="1099" y="-1161" width="1877" height="453" key="GridCell.Tab.1.right/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1600249477839" />
+    <state width="1877" height="453" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600443401669" />
     <state x="1099" y="-1161" width="1877" height="454" key="GridCell.Tab.2.bottom" timestamp="1599763077339">
       <screen x="-742" y="-1440" width="3440" height="1400" />
     </state>
@@ -391,10 +876,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="487" y="188" width="591" height="408" key="GridCell.Tab.5.right/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599763019539" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1599682256264">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1600191350566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599682256264" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1600191350566" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599771785141" />
     <state x="564" y="194" width="607" height="475" key="dock-window-1" timestamp="1599763298321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -403,23 +889,31 @@
       <screen x="-742" y="-1440" width="3440" height="1400" />
     </state>
     <state x="1099" y="-1161" width="1189" height="717" key="dock-window-2/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599762792692" />
+    <state x="668" y="95" width="583" height="849" key="find.popup" timestamp="1600166740823">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="95" width="583" height="849" key="find.popup/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1600166740823" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1599382083930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599382083930" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599762569124">
+    <state x="752" y="378" key="scopes" timestamp="1600170719798">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1599762569124" />
+    <state x="752" y="378" key="scopes/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1600170719798" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600254636854">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-742.-1440.3440.1400@0.0.1920.1040" timestamp="1600254636854" />
     <state x="1365" y="1665" width="672" height="678" key="search.everywhere.popup/742.1440.1920.1040/0.0.3440.1400@742.1440.1920.1040" timestamp="1599682050735" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tweets/views.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/tweetme2/rest_api/dev.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
